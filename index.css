@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  display: block;
+}
+
+#nav-bar {
+  height: 50px;
+  border: 2px solid #000;
+  margin-top: 5px;
+}
+
+.logo {
+  float: left;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+#nav-items {
+  display: flex;
+  flex-direction: row;
+  margin-left: 77%;
+  list-style: none;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.items {
+  border-right: 2px solid #000; /* stylelint-disable-line*/ 
+  width: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.date {
+  float: right;
+}
+
+.page-title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 62px;
+  margin-top: 5%;
+}
+
+.library {
+  align-items: center;
+}
+
+.each-book {
+  display: flex;
+  flex-direction: row;
+  max-width: 96%;
+  margin-left: 2%;
+}
+
+.each-book:nth-child(odd) {
+  background-color: grey;
+}
+
+.each-book:nth-child(even) {
+  background-color: white;
+}
+
+.book-name,
+.book-author {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 34px;
+  width: auto;
+}
+
+.button {
+  margin-left: 70%;
+}
+
+.add-books {
+  display: none;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 30px;
+}
+
+.name,
+.author {
+  height: 40px;
+  margin-bottom: 4%;
+}
+
+.submit {
+  width: 14%;
+  height: 30px;
+  box-shadow: 6px 6px #000;
+  margin-left: 86%;
+}
+
+#contact-us {
+  display: none;
+}
+
+#message {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 36px;
+  padding-top: 5%;
+}
+
+.contact-info {
+  margin-left: 20%;
+  font-size: 30px;
+  font-family: 'Montseratt', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+#footer {
+  margin-top: 5%;
+}
+
+#copy {
+  font-size: 20px;
+  margin-left: 10%;
+}
