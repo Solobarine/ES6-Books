@@ -12,21 +12,21 @@ const contactSection = document.querySelector('#contact-us');
 // Create Display Functions
 
 // Show Only List of Books page
-export function showList() {
+export const showList = () => {
   listSection.style.display = 'block';
   addBookSection.style.display = 'none';
   contactSection.style.display = 'none';
 }
 
 // Show Only Add Books page
-export function showBooks() {
+export const showBooks = () =>  {
   listSection.style.display = 'none';
   addBookSection.style.display = 'block';
   contactSection.style.display = 'none';
 }
 
 // Show Contact Us page
-export function showContactUs() {
+export const showContactUs = () => {
   listSection.style.display = 'none';
   addBookSection.style.display = 'none';
   contactSection.style.display = 'block';

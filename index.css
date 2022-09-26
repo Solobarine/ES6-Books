@@ -3,29 +3,35 @@
   margin: 0;
 }
 
+body {
+  width: 1200px;
+}
+
 #header {
   display: block;
 }
 
 #nav-bar {
-  height: 50px;
+  height: 80px;
   border: 2px solid #000;
   margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-  float: left;
   font-size: 25px;
-  padding-top: 5px;
+  padding-top: 20px;
+  padding-left: 25px;
 }
 
 #nav-items {
   display: flex;
   flex-direction: row;
-  margin-left: 77%;
   list-style: none;
   font-size: 20px;
   padding-top: 10px;
+  padding-right: 25px;
 }
 
 .items {
@@ -33,10 +39,13 @@
   width: auto;
   text-align: center;
   justify-content: center;
+  cursor: pointer;
+  padding: 10px;
 }
 
 .date {
   float: right;
+  margin-right: 25px;
 }
 
 .page-title {
