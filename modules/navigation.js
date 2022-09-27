@@ -16,18 +16,18 @@ export const showList = () => {
   listSection.style.display = 'block';
   addBookSection.style.display = 'none';
   contactSection.style.display = 'none';
-}
+};
 
 // Show Only Add Books page
-export const showBooks = () =>  {
+export const showBooks = () => {
   listSection.style.display = 'none';
   addBookSection.style.display = 'block';
   contactSection.style.display = 'none';
-}
+};
 
 // Show Contact Us page
 export const showContactUs = () => {
   listSection.style.display = 'none';
   addBookSection.style.display = 'none';
   contactSection.style.display = 'block';
-}
+};
